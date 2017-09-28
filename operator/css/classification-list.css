@@ -1,0 +1,364 @@
+/*
+* @Author: Administrator
+* @Date:   2016-05-24 17:18:19
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-08-19 16:47:47
+*/
+span,i{
+	display: inline-block;
+}
+.contmu{
+	background: #fff;
+	padding-left: 20px;
+	padding-bottom: 50px;
+}
+.head{
+	background: #F6FDFF;
+	padding: 30px;
+	height: 220px;
+
+}
+.contmu h2{
+	font-size: 20px;
+	line-height: 50px;
+	font-weight: normal;
+	width: 100%;
+}
+.contmu h2 span{
+	font-size: 16px;
+	margin-left: 10px;
+}
+.contmu h2 button{
+	float: right;
+	margin-top: 10px;
+	margin-right: 40px;
+}
+.popup{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.4);
+	position: fixed;
+	left:0;
+	top:0;
+}
+.pouhead2 h2{
+	font-size: 20px;
+    line-height: 50px;
+    font-weight: normal;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-left: 30px;
+}
+.waibg{
+	width: 900px;
+	height: 444px;
+	background: rgba(0,0,0,.3);
+	margin: 120px auto;
+	padding:8px;
+}
+.neibg{
+	width: 884px;
+	height: 428px;
+	background: #fff;
+	
+}
+.pouhead{
+	width: 100%;
+	height: 60px;
+	background: #F2F2F2;
+}
+.pouhead h2{
+	padding-left: 30px;	
+	border-bottom: none;
+	font-weight: normal;
+	line-height: 60px;
+}
+.pouhead span{
+	font-size: 20px;
+	font-weight: normal;
+	cursor: pointer;
+	color: #999;
+}
+.popup{
+	display: none;
+}
+.poucont{
+	height: 408px;
+	padding: 30px;
+	padding-top: 10px;
+}
+.poucont .pouconl{
+	width: 274px;
+	height: 318px;
+	float: left;
+	border-right: 1px solid #ccc;
+}
+.poucont .pouconr{
+	width: 364px;
+	height: 318px;
+	float: left;
+	padding-left: 35px;
+	
+}
+.daoru{
+	width: 240px;
+	height: 245px;
+	background: #F2F2F2;
+	border: 1px solid #CDCDCD;
+}
+.pouconl p{
+	font-size: 12px;
+	margin-top: 10px;
+}
+#chuanbtn{
+	margin-left: 45px;
+	padding: 5px 20px;
+}
+.pouconr h3{
+	font-size: 16px;
+	color: #000;
+	font-weight: bold;
+	margin-top:0;
+}
+.pouconr p{
+	font-size: 14px;
+	color: #999;
+}
+.yuran{
+	margin-left: 50px;
+	overflow: hidden;
+	margin-top: 40px;
+}
+.yuransmall{
+	
+	float: left;
+	margin-top: 60px;
+}
+.yuranbig{
+	
+	float: left;
+	margin-left: 60px;
+}
+.picsmall{
+
+	width: 60px;
+	height: 60px;
+	background: #F2F2F2;
+	border-radius: 50%;
+	border: 1px solid #CDCDCD;
+
+}
+.picbig{
+	width: 120px;
+	height: 120px;
+	background: #F2F2F2;
+	border-radius: 50%;
+	border: 1px solid #CDCDCD;
+}
+.yuran p{
+	text-align: center;
+}
+#cunbtn{
+	padding: 5px 30px;
+	margin-left: 120px;
+	margin-top: 42px;
+}
+.pousear{
+	width: 700px;
+	height: 70px;
+	background: #F6FDFF;
+	margin: 0 auto;
+	padding-left: 15px;
+}
+.poumaila{
+	float: left;
+	margin-top: 20px;
+	margin-right: 50px;
+	margin-left: 30px;
+}
+.poumaila input{
+	width: 150px;
+	height: 30px;
+}
+ h2{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 24px;
+	
+	width: 805px;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+
+}
+.pouhead h2 span{
+	font-size: 14px;
+	color: #333;
+	margin-left: 10px;
+}
+.pousear3{
+	overflow: hidden;
+	padding: 0 30px;
+	margin-top: 50px;
+}
+.btnadd{
+	margin-top: 20px;
+	margin-left: 12em;
+
+}
+
+.addbtnz{
+	float: right;
+	margin-top: 13px;
+	margin-right: 10px;
+
+}
+.manaau span{
+	font-size: 16px;
+}
+.manaau{
+	margin-left: 30px;
+	margin-top: 30px;
+}
+.manaau .zTreeDemoBackground{
+	margin-left: 60px;
+}
+.poucont3 div{
+	margin-top: 20px;
+	margin-left: 60px;
+}
+
+.poucont3 input,.poucont3 select{
+	width: 300px;
+	height:30px;
+}
+.poucont3 .pouma span{
+	width: 6em;
+	display: inline-block;
+	text-align: right;
+	margin-right: 10px;
+}
+.poucont3 .pouma span i{
+	color: red;
+	font-size: 18px;
+	margin-right: 5px;
+	vertical-align: middle;
+	font-style: normal;
+}
+.poucont3 .pouma u{
+	font-style: normal;
+	margin-left: 10px;
+	text-decoration: none;
+}
+.contmu .attrfenlei span{
+	display: inline-block;
+	width: 8em;
+	text-align: right;
+	margin-right: 10px;
+}
+.contmu .attrfenlei span i{
+	font-size: 18px;
+	vertical-align: middle;
+	color: red;
+	font-style: normal;
+	margin-right: 5px;
+}
+.contmu .attrfenlei select,.contmu .attrfenlei input[type="text"]{
+	width: 150px;
+	height: 30px;
+}
+.contmu .attrfenlei{
+	margin-bottom: 15px;
+
+}
+.contmu .attrfenlei u{
+	text-decoration: none;
+	margin-left: 10px;
+}
+.attrfenlei button{
+	background: #fff;
+	border: 1px solid #0063FD;
+	color: #0063FD;
+	border-radius: 5px;
+	width: 90px;
+	height: 30px;
+}
+.thxx{
+	margin-bottom: 0;
+
+}
+.thxx div{
+	border: 1px solid #ccc;
+		padding: 6px 8px;
+}
+.tihxinx{
+	margin-bottom: 30px;
+}
+.inputa{
+	text-align: center;
+	margin-bottom: 0;
+}
+.inputa div{
+	border: 1px solid #ccc;
+	padding: 6px 8px;
+}
+.inputa input{
+	border: none;
+	/* text-align: center; */
+	background: no-repeat;
+	width: 98%;
+
+}
+.checkboxa input{
+    margin: 2px 0 0;
+}
+.btnbcfh button{
+	width: 145px;
+	height: 42px;
+	background: #FF6600;
+	color: #fff;
+
+}
+.btnbcfh a:nth-child(2) button{
+	width: 100px;
+	height: 40px;
+	background: #FFF5EC;
+	color: #FF9966;
+	border: 1px solid #FFCC66;
+}
+.tihxinx{
+	width: 96%;
+	padding-left: 126px;
+}
+.btnbcfh{
+	padding-left: 106px;
+	margin-top: 30px;
+}
+.attrfenlei u s{
+	text-decoration: none;
+	margin-right: 10px;
+}
+.attrfenlei ul{
+	width: 460px;
+	height: 140px;
+	background: #FFFBF2;
+	border: 1px solid #FBC053;
+}
+.attrfenlei ul li input{
+	vertical-align: text-bottom;
+}
+.attrfenlei ul li{
+	float: left;
+	width: 90px;
+	text-align: center;
+	margin-top: 10px;
+}
+.attrfenlei .glsx{
+	float: left;
+}
+.attrfenlei ul{
+	float: left;
+}
+.attrfenlei{
+	overflow: hidden;
+}

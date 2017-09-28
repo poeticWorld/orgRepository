@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/bootstrap-table.min.css">
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../zTree_v3-master/css/zTreeStyle/zTreeStyle.css">
+
+        <link rel="stylesheet" href="../css/classification-list.css">
+    </head>
+    <body  style="overflow-x: hidden">
+    
+    	
+		
+		<div class="contmu" id="incon">
+	    	<!-- <iframe src="" frameborder="0" id="incon" scrolling="auto">
+	    	</iframe> -->
+			<h2 style="margin-bottom:0;padding-bottom:0;">商品分类模板管理<span>分类模板列表</span><a href="classification-templateadd.html"><button class="btn btn-info">添加模板</button></a></h2>
+			<div style="width:96%;margin:30px auto;">
+	    		<table id="table2" 
+					                       data-toggle="table" 
+					                       data-page-list="[5, 10, 20, 50, 100, 200]" 
+					                       data-pagination="true" 
+					                       data-query-params="queryParams" 
+					                       data-striped="true"
+					                   
+					                     
+					                       data-page-size="5"
+					                       data-url="../js/data1.json"> 
+	                                <thead>
+	                                    <tr>
+	                                        <th data-field="code">分类编号</th> 
+	                                        <th data-field="people">模板名称</th> 
+	                                        <th data-field="time">关联分类</th>
+	                                      	
+	                                        <th data-field="operation" data-formatter="operateFormatter2" data-events="operateEvents">操作</th>
+	                                        
+	                                    </tr>
+	                                </thead>
+	                </table>
+	    	</div>
+			<!-- <div class="btnretu">
+				<button class="btn btn-info" style="width:100px;height:32px;margin-top:80px;margin-left:80px;">返回</button>
+			</div> -->
+		</div>	
+    	
+    	<script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
+    	<script type="text/javascript" src="../zTree_v3-master/js/jquery.ztree.core.js"></script>
+    	<script type="text/javascript" src="../zTree_v3-master/js/jquery.ztree.exedit.js"></script>
+    	<script type="text/javascript" src="../zTree_v3-master/js/jquery.ztree.excheck.js"></script>
+
+		<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../js/bootstrap-table.min.js"></script>
+
+    	<script type="text/javascript" src="../js/classification-list.js"></script>
+    </body>
+</html>

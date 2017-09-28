@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/bootstrap-table.min.css">
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/authorization_management.css">
+    </head>
+    <body>
+		<div class="row form-inline">
+			<div class="col-md-6">
+				<span>申请人</span>
+				<input type="text">
+			</div>
+			<div class="col-md-6">
+				<span>状态</span>
+				<select name="" id="">
+					<option value="全部">全部</option>
+					<option value="待审核">待审核</option>
+				</select>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-7">
+				<span>申请时间</span>
+				<select name="" id="">
+					<option value="2016/08/08-12:11">2016/08/08-12:11</option>
+				</select>至
+				<select name="" id="">
+					<option value="2016/08/08-12:11">2016/08/08-12:11</option>
+				</select>
+			</div>
+			<div class="col-md-5">
+				<button class="btn btn-info">搜索</button>
+			</div>
+		</div>
+			
+		<div style="width:90%;margin:0 auto;">
+    		<table id="table" 
+				                       data-toggle="table" 
+				                       data-page-list="[5, 10, 20, 50, 100, 200]" 
+				                       data-pagination="true" 
+				                       data-query-params="queryParams" 
+				                       data-striped="true"
+				                   
+				                     
+				                       data-page-size="5"
+				                       data-url="../js/data1.json"> 
+                                <thead>
+                                    <tr>
+                                        <th data-field="code">申请编号</th> 
+                                        <th data-field="people">申请人</th> 
+                                        <th data-field="time">申请时间</th>
+                                        <th data-field="state">申请状态</th>
+                                        <th data-field="product">申请商品</th>
+                                        <th data-field="operation" data-formatter="operateFormatter" data-events="operateEvents">操作</th>
+                                        
+                                    </tr>
+                                </thead>
+                </table>
+    	</div>
+    <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-table.min.js"></script>
+    <script type="text/javascript" src="../js/authorization_management.js"></script>	
+    </body>
+</html>

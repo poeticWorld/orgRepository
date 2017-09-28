@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/bootstrap-table.min.css">
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../zTree_v3-master/css/zTreeStyle/zTreeStyle.css">
+
+        <link rel="stylesheet" href="../css/classification-list.css">
+    </head>
+    <body  style="overflow-x: hidden">
+    
+    	
+		
+		<div class="contmu" id="incon">
+	    	<!-- <iframe src="" frameborder="0" id="incon" scrolling="auto">
+	    	</iframe> -->
+			<h2 style="margin-bottom:0;padding-bottom:0;">商品分类模板管理<span>添加属性</span></h2>
+			<div class="attrfenlei">
+				<span><i>*</i>属性名称</span>
+				<input type="text"><u>0/20</u>
+			</div>
+			<div class="attrfenlei">
+				<span>默认值</span>
+				<input type="text">
+			</div>
+			<div class="attrfenlei">
+				<span>属性单位</span>
+				<input type="text">
+			</div>
+			<div class="attrfenlei">
+				<span>展现形式</span>
+				<select name="" id="">
+					<option value="请选择">请选择</option>
+				</select>
+			</div>
+			<div class="attrfenlei">
+				<span>是否必填</span>
+				<select name="" id="">
+					<option value="是">是</option>
+					<option value="否">否</option>
+				</select>
+			</div>
+			<div class="attrfenlei">
+				<span>是否商品规格</span>
+				<select name="" id="">
+					<option value="是">是</option>
+					<option value="否">否</option>
+				</select>
+			</div>
+			<div class="attrfenlei">
+				<span>是否筛选属性</span>
+				<select name="" id="">
+					<option value="是">是</option>
+					<option value="否">否</option>
+				</select>
+			</div>
+			<div class="attrfenlei">
+				<span>是否颜色属性</span>
+				<select name="" id="">
+					<option value="是">是</option>
+					<option value="否">否</option>
+				</select>
+			</div>
+			<div class="attrfenlei">
+				<span>是否可以编辑</span>
+				<select name="" id="">
+					<option value="是">是</option>
+					<option value="否">否</option>
+				</select>
+			</div>
+			<div class="attrfenlei">
+				<span>是否枚举值</span>
+				<select name="" id="meiju">
+					<option value="是">是</option>
+					<option value="否">否</option>
+				</select>
+				<button id="addthxx">添加枚举值</button>
+				<button  id="removethxx">删除枚举值</button>
+			</div>
+			<div class="meijutable">
+				<div class="tihxinx">
+			             
+			              
+			              <div class="row thxx" style="text-align:center;">
+			                <div class="col-md-1">
+			                    枚举值类型
+			                </div>
+			                <div class="col-md-2">
+			                    属性枚举值
+			                </div>
+			                <div class="col-md-4">
+			                  颜色枚举值展现形式
+			                </div>
+			                
+			                <div class="col-md-2">
+			                  颜色值
+			                </div>
+			                <div class="col-md-3">
+			                  颜色图标
+			                </div>
+			              </div>
+			              
+			              <div class="row inputa">
+			                <div class="col-md-1 checkboxa">
+			                    <input type="checkbox">
+			                </div>
+			                <div class="col-md-2">
+			                    <input type="text" size="50">
+			                </div>
+			                <div class="col-md-4">
+			                    <input type="text">
+			                </div>
+			                <div class="col-md-2">
+			                    <input type="text">
+			                </div>
+			                <div class="col-md-3">
+			                    <input type="text">
+			                </div>
+			              </div>
+			        </div>
+			</div>
+			<div class="btnbcfh">
+				<button>保存</button>
+				<a href="classification-attribute.html"><button>返回</button></a>
+			</div>
+		</div>	
+    	
+    	<script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
+    	<script type="text/javascript" src="../zTree_v3-master/js/jquery.ztree.core.js"></script>
+    	<script type="text/javascript" src="../zTree_v3-master/js/jquery.ztree.exedit.js"></script>
+    	<script type="text/javascript" src="../zTree_v3-master/js/jquery.ztree.excheck.js"></script>
+
+		<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../js/bootstrap-table.min.js"></script>
+
+    	<script type="text/javascript" src="../js/classification-list.js"></script>
+    </body>
+</html>
